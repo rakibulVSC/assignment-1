@@ -191,3 +191,71 @@ hr {
     height: 550px;
     
 }
+
+.current-target-container{
+    width:1140px;
+    height:460px ;
+    margin:130px auto;
+    
+}
+.current-target-title{
+    width:940px;
+    height: 113px;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.current-target-title h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.current-target-title p{
+ width:852px;
+ height: 52px;
+ margin-top:10px;
+ color: rgb(13, 19, 33);
+}
+
+.current-target-card{
+    width:1140px;
+    height: 290px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    /* gap:24px; */
+
+   
+}
+.current-target-div{
+    width:320px ;
+    height:250px ;
+    margin: 0 auto;
+   
+}
+
+.current-target-div1,.current-target-div2,.current-target-div3{
+    width: 270px;
+    height:210px ;
+    margin: 6px auto;
+   
+}
+
+.current-target-div1 img{
+    width:54px ;
+    height:54px ;
+    margin-top: 2px;
+}
+.current-target-div2 img{
+    width:54px ;
+    height:54px ;
+    margin-top: 2px;
+}
+.current-target-div3 img{
+    width:54px ;
+    height:54px ;
+    margin-top: 2px;
+}
