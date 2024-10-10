@@ -71,7 +71,7 @@ body{
     background: rgb(233, 233, 233);
     margin: 150px auto;
     border-radius: 5px;
-    border:2px solid gray ;
+    /* border:2px solid gray ; */
     border-radius: 2px;
     
 
@@ -267,7 +267,7 @@ hr {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    background-image:linear-gradient(0deg,rgb(14,6,14)-19%,rgba(16,16,16,0)20%),url("./assets/handshake.jpg");
+    background-image:linear-gradient(0deg,rgb(14,6,14)-10%,rgba(16,16,16,0)20%),url("./assets/handshake.jpg");
     background-size: cover;
     background-repeat: no-repeat;
    
@@ -316,7 +316,13 @@ hr {
     box-sizing: border-box;
     border-radius: 8px;
    
+   
 }
+.support-input input::placeholder{
+    padding:10px;
+    margin-left: 10px;
+}
+
 .support-input button{
     width: 120px;
     height: 57px;
